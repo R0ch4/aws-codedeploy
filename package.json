@@ -1,0 +1,17 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "[Mastertrack](http://www.mastertrack.com.br/) é uma empresa voltada para segurança",
+  "main": "index.js",
+  "dependencies": {
+    "jquery-validation": "^1.15.1"
+  },
+  "devDependencies": {
+    "jquery": "^1.12.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

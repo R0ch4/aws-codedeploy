@@ -1,0 +1,34 @@
+.error_form{
+	font-size: 15px;
+	font-family: Arial;
+	color: #FF0052;
+	padding-left: 30px;
+}
+
+#use_data_reg {
+    position: relative;
+    width: 150px; height: 30px;
+    color: white;
+}
+
+#use_data_reg:before {
+    position: absolute;
+    top: 3px; left: 3px;
+    content: attr(data-date);
+    display: inline-block;
+    color: black;
+}
+
+#use_data_reg::-webkit-datetime-edit, input::-webkit-inner-spin-button, input::-webkit-clear-button {
+    display: none;
+}
+
+#use_data_reg::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    color: black;
+    opacity: 1;
+}
+
+body { background-color: #222d32;}
